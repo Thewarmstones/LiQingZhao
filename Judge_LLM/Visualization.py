@@ -36,7 +36,7 @@ angles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()
 angles += angles[:1]  # 闭合角度
 
 # 创建绘图
-fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True), dpi=300)
+fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True), dpi=600)
 
 # 自定义颜色列表
 colors = [
@@ -67,8 +67,8 @@ ax.set_xticklabels(labels, fontsize=12)
 # 添加图例
 ax.legend(loc='upper right', bbox_to_anchor=(1.2, 1.1), fontsize=10)
 
-# 设置标题
-ax.set_title('模型性能对比', fontsize=14)
+# # 设置标题
+# ax.set_title('模型性能对比', fontsize=14)
 
 
 # 保存高清图片

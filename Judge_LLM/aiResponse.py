@@ -1,63 +1,75 @@
-# 基于原始的问题集调用若干模型进行回复
-# 收集模型回复并存储在指定文件夹
-# 将回复按照模型分类存储
-
-
-import os
-import json
-from tqdm import tqdm
 from openai import OpenAI
+from collections import defaultdict
+import json
 
-## 导入提示词
-from Prompt import promptJudge
+promptQuery = \
+"""
+请扮演指定角色和我进行交流对话:
+-- 角色 --
+李清照
+-- 语言风格 --
+使用白话风格进行交流，不要文邹邹的
+-- 输入 --
+{query}
+-- 输出 --"""
 
 
-# 初始化 OpenAI 客户端
+# 配置 OpenAI 客户端，指向本地 Ollama 服务
 client = OpenAI(
-    base_url='https://www.apigptopen.xyz/v1',
-    api_key='sk-YB18uqLFQ64gVvjpUnwzzi9jxH7o3w36sXRmCtaZUmKb04uk'
+    base_url="http://localhost:11434/v1",  # Ollama 的 OpenAI 兼容接口地址
+    api_key="ollama",                     # Ollama 不需要真实的 API Key，但需要提供一个占位值
 )
 
-# 定义输入和输出文件夹路径
-input_folder = './query_input'  # 输入文件夹路径
-output_folder = './ai_output'  # 输出文件夹路径
+model_list = ["qwen2.5:7b","gemma3:12b","llama3.1:8b"]
+mapping = {
+    "qwen2.5:7b":"Qwen2.5-7B",
+    "gemma3:12b":"Gemma3-12B",
+    "llama3.1:8b":"Llama3.1-8B"
+}
 
-os.makedirs(output_folder, exist_ok=True)
+
+# 读取问题数据
+# with open('****', 'r', encoding='utf-8') as f:
+#     data = f.read()
+
+# 测试问题
+questions = ["你是博家之祖吗","你平时有什么爱好","你如何看待夫妻间的学术交流"]
 
 
+model_QA = defaultdict(list)
 
-
-processed_files = set()
-
-# 遍历子文件夹中的所有 .txt 文件
-for filelist_name in os.listdir(input_folder):
-    if filelist_name.startswith('judge'):
-        continue
-    input_path = os.path.join(input_folder, filelist_name)
-    output_path = os.path.join(input_folder, 'judge_' + filelist_name)
-    with open('poem/finnal_output/judge_wrong', 'a', encoding='utf-8') as f:
-        f.write(input_path + '\n')
-    with open(input_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    for i in tqdm(range(len(data))):
-        ele = data[i]
-        new_prompt = promptJudge.replace('{{title}}', ele['title']).replace('{{content}}', ele['content']).replace(
-            '{{comment}}', ele['comment']).replace('{{anno}}', ele['anno']).replace('{{conversations}}',
-                                                                                    str(ele['conversations']))
-        try:
-            completion = client.chat.completions.create(
-                model="gpt-4o",
-                messages=[
-                    {"role": "system", "content": "You are a helpful assistant."},
-                    {"role": "user", "content": new_prompt}
-                ]
+for modelName in model_list:
+    for question in questions:
+        response = client.chat.completions.create(
+            model=modelName,
+            messages=[
+                {"role": "system", "content": "你是李清照，号易安居士。早年生活优渥，家学深厚，婚后与丈夫赵明诚共同致力于书画金石的搜集整理。后因金兵南侵，流落南方，历经国破家亡，晚景孤苦，情感转为凄怆沉郁。"},
+                {"role": "user", "content": promptQuery.replace("{query}",question)}
+            ],
+            temperature=0.7,
+            max_tokens=1024
+        )
+        # 模型的回复
+        ai_response = response.choices[0].message.content
+        # print(ai_response)
+        model_QA[mapping[modelName]].append(
+                {
+                    'query':question,
+                    'response':ai_response,
+                    'annotation':""
+                }
             )
-            ai_response = completion.choices[0].message.content
-            data[i]['judge'] = ai_response
-        except Exception:
-            with open('poem/finnal_output/judge_wrong', 'a', encoding='utf-8') as f:
-                f.write(ele['idx'] + '\n')
-            continue
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+
+# 打印各个模型的回复
+for model_info in model_QA:
+    for qa in model_QA[model_info]:
+        print(qa['query'])
+        print(qa['response'])
+        print(qa['annotation'])
+        print("*"*50)
+
+exit()
+with open("model_QA.json","w",encoding="utf-8") as f:
+    json.dump(model_QA,f,ensure_ascii=False,indent=4)
+
 

@@ -5,7 +5,7 @@ import re
 import json
 
 # 定义输入和输出文件夹路径
-input_folder = './ai_output'  # 输入文件夹路径
+input_folder = './judge_output'  # 输入文件夹路径
 output_folder = './clean_data'  # 输出文件夹路径
 error_folder = './error' # 错误文件路径
 os.makedirs(output_folder, exist_ok=True)
