@@ -1,0 +1,153 @@
+-目标-
+给定一个可能与此活动相关的文本文档和实体类型列表，识别出文本中所有这些类型的实体以及识别出的实体之间的所有关系。文本内容是关于 李清照 的生平事迹。
+
+-步骤-
+1.识别所有实体。对于每个识别出的实体，提取以下信息：
+entity_name: 实体名称，首字母大写
+entity_type: 以下类型之一：[{entity_types}]
+entity_description: 实体属性和活动的详细描述
+将每个实体格式化为 ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2.从步骤1中识别出的实体中，找出所有明显相关 的（source_entity, target_entity）对。
+对于每对相关的实体，提取以下信息：
+source_entity: 源实体的名称，如步骤1中所识别
+target_entity: 目标实体的名称，如步骤1中所识别
+relationship_description: 认为源实体和目标实体相关的解释
+relationship_strength: 表示源实体与目标实体之间关系强度的数字评分
+将每个关系格式化为 ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3.将步骤1和步骤2中识别出的所有实体和关系以英文返回为单个列表。使用 {record_delimiter} 作为列表分隔符。
+
+4.完成后，输出 {completion_delimiter}
+
+######################
+-案例-
+######################
+案例 1:
+Entity_types: GEO, PERSON, DATE
+Text:
+开封（1126年5月，43岁）
+1126年，43岁
+1126年5月　夏，夫妻共赏白居易所书《楞严经》
+######################
+Output:
+("entity"{tuple_delimiter}开封{tuple_delimiter}GEO{tuple_delimiter}地点，中国历史上的城市)
+{record_delimiter}
+("entity"{tuple_delimiter}1126年{tuple_delimiter}DATE{tuple_delimiter}年份，记录事件发生的时间)
+{record_delimiter}
+("entity"{tuple_delimiter}1126年5月{tuple_delimiter}DATE{tuple_delimiter}具体时间，事件发生的月份)
+{record_delimiter}
+("entity"{tuple_delimiter}白居易{tuple_delimiter}PERSON{tuple_delimiter}唐代著名诗人，书写《楞严经》的作者)
+{record_delimiter}
+("relationship"{tuple_delimiter}开封{tuple_delimiter}1126年5月{tuple_delimiter}在1126年5月，事件发生在开封{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}夫妻{tuple_delimiter}白居易{tuple_delimiter}夫妻欣赏了白居易所书写的《楞严经》{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}1126年5月{tuple_delimiter}白居易{tuple_delimiter}在1126年5月，夫妻共赏白居易的作品{tuple_delimiter}2)
+{completion_delimiter}
+
+######################
+案例 2:
+Entity_types: ORGANIZATION,GEO,PERSON,DATE
+Text:
+莱州（掖县）（1121年8月18日 - 1123年，38-40岁，作品：2）
+1121-1123年，38-40岁
+1121年8月18日　到莱州，有诗。作品：《感怀》
+感怀（1121年8月18日） 宋 · 李清照
+寒窗败几无书史，公路可怜竟至此。
+青州从事孔方君，终日纷纷喜生事。
+作诗谢绝聊闭门，燕寝凝香有佳思。
+静中我乃得知交，乌有先生子虚子⑴。
+⑴ 以上明郦琥《彤管遣编》续集卷一七
+
+1122年　夫妇居莱州，明诚屡得石刻碑铭，清照有诗。作品：《晓梦》
+晓梦（1122年） 宋 · 李清照
+晓梦随疏钟，飘然蹑云霞。
+因缘安期生，邂逅萼绿华。
+秋风正无赖，吹尽玉井花。
+共看藕如船，同食枣如瓜。
+翩翩坐上客，意妙语亦佳。
+嘲辞斗诡辨，活火分新茶。
+虽非助帝功，其乐莫可涯。
+人生能如此，何必归故家。
+起来敛衣坐，掩耳厌喧哗。
+心知不可见，念念犹咨嗟。
+
+1123年　居莱州，于静治堂助明诚整理《金石录》
+
+######################
+Output:
+("entity"{tuple_delimiter}莱州{tuple_delimiter}GEO{tuple_delimiter}李清照在1121年至1123年间居住的地方)
+{record_delimiter}
+("entity"{tuple_delimiter}掖县{tuple_delimiter}GEO{tuple_delimiter}莱州的古称)
+{record_delimiter}
+("entity"{tuple_delimiter}青州{tuple_delimiter}GEO{tuple_delimiter}李清照提到的地点之一)
+{record_delimiter}
+("entity"{tuple_delimiter}玉井{tuple_delimiter}GEO{tuple_delimiter}《晓梦》诗中提到的地点)
+{record_delimiter}
+("entity"{tuple_delimiter}静治堂{tuple_delimiter}GEO{tuple_delimiter}李清照与明诚整理《金石录》的地方)
+{record_delimiter}
+("entity"{tuple_delimiter}李清照{tuple_delimiter}PERSON{tuple_delimiter}宋代著名女词人，创作了《感怀》和《晓梦》)
+{record_delimiter}
+("entity"{tuple_delimiter}明诚{tuple_delimiter}PERSON{tuple_delimiter}李清照的丈夫，与她共同整理《金石录》)
+{record_delimiter}
+("entity"{tuple_delimiter}安期生{tuple_delimiter}PERSON{tuple_delimiter}《晓梦》诗中提到的仙人)
+{record_delimiter}
+("entity"{tuple_delimiter}萼绿华{tuple_delimiter}PERSON{tuple_delimiter}《晓梦》诗中提到的仙女)
+{record_delimiter}
+("entity"{tuple_delimiter}郦琥{tuple_delimiter}PERSON{tuple_delimiter}明代学者，其著作《彤管遣编》收录了李清照的作品)
+{record_delimiter}
+("entity"{tuple_delimiter}乌有先生{tuple_delimiter}PERSON{tuple_delimiter}李清照诗中虚构的人物)
+{record_delimiter}
+("entity"{tuple_delimiter}子虚子{tuple_delimiter}PERSON{tuple_delimiter}李清照诗中虚构的人物)
+{record_delimiter}
+("entity"{tuple_delimiter}《感怀》{tuple_delimiter}ORGANIZATION{tuple_delimiter}李清照于1121年创作的诗作)
+{record_delimiter}
+("entity"{tuple_delimiter}《晓梦》{tuple_delimiter}ORGANIZATION{tuple_delimiter}李清照于1122年创作的诗作)
+{record_delimiter}
+("entity"{tuple_delimiter}《金石录》{tuple_delimiter}ORGANIZATION{tuple_delimiter}李清照与明诚整理的金石学著作)
+{record_delimiter}
+("entity"{tuple_delimiter}1121年8月18日{tuple_delimiter}TIME{tuple_delimiter}李清照到达莱州并创作《感怀》的时间)
+{record_delimiter}
+("entity"{tuple_delimiter}1121年{tuple_delimiter}TIME{tuple_delimiter}李清照开始在莱州居住的时间)
+{record_delimiter}
+("entity"{tuple_delimiter}1122年{tuple_delimiter}TIME{tuple_delimiter}李清照创作《晓梦》的时间)
+{record_delimiter}
+("entity"{tuple_delimiter}1123年{tuple_delimiter}TIME{tuple_delimiter}李清照与明诚在静治堂整理《金石录》的时间)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}莱州{tuple_delimiter}李清照在莱州居住并创作了多首诗作{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}明诚{tuple_delimiter}李清照与明诚共同整理《金石录》{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}《感怀》{tuple_delimiter}李清照于1121年8月18日创作了《感怀》{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}《晓梦》{tuple_delimiter}李清照于1122年创作了《晓梦》{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}静治堂{tuple_delimiter}李清照在静治堂协助明诚整理《金石录》{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}明诚{tuple_delimiter}《金石录》{tuple_delimiter}明诚在莱州整理《金石录》{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}乌有先生{tuple_delimiter}李清照在《感怀》中提到了乌有先生{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}子虚子{tuple_delimiter}李清照在《感怀》中提到了子虚子{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}安期生{tuple_delimiter}李清照在《晓梦》中提到了安期生{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}萼绿华{tuple_delimiter}李清照在《晓梦》中提到了萼绿华{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}郦琥{tuple_delimiter}郦琥在其著作《彤管遣编》中收录了李清照的作品{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}1121年8月18日{tuple_delimiter}李清照于1121年8月18日到达莱州并创作了《感怀》{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}1122年{tuple_delimiter}李清照于1122年创作了《晓梦》{tuple_delimiter}2)
+{record_delimiter}
+("relationship"{tuple_delimiter}李清照{tuple_delimiter}1123年{tuple_delimiter}李清照于1123年在静治堂整理《金石录》{tuple_delimiter}2)
+{completion_delimiter}
+
+######################
+-真实数据-
+######################
+Entity_types: {entity_types}
+Text: {input_text}
+######################
+输出:

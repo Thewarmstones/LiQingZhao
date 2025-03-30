@@ -1,0 +1,2599 @@
+16:09:27,512 graphrag.cli.index INFO Logging enabled at C:\Users\ly\GraphRAG\ragtest3\logs\indexing-engine.log
+16:09:30,253 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:09:31,142 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:09:31,143 openai._base_client INFO Retrying request to /embeddings in 0.443634 seconds
+16:09:31,689 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:09:31,690 openai._base_client INFO Retrying request to /embeddings in 0.940846 seconds
+16:09:32,731 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:09:32,733 openai._base_client INFO Retrying request to /embeddings in 1.579908 seconds
+16:09:34,415 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:09:34,416 openai._base_client INFO Retrying request to /embeddings in 3.491461 seconds
+16:09:38,18 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:09:38,20 openai._base_client INFO Retrying request to /embeddings in 6.965200 seconds
+16:09:45,89 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:09:45,91 openai._base_client INFO Retrying request to /embeddings in 6.135838 seconds
+16:09:51,331 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:09:51,332 openai._base_client INFO Retrying request to /embeddings in 6.773073 seconds
+16:09:58,216 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:09:58,217 openai._base_client INFO Retrying request to /embeddings in 7.889144 seconds
+16:10:06,210 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:10:06,212 openai._base_client INFO Retrying request to /embeddings in 7.685538 seconds
+16:10:13,998 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:10:14,0 openai._base_client INFO Retrying request to /embeddings in 6.540540 seconds
+16:10:20,650 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 500 Internal Server Error"
+16:12:31,597 graphrag.cli.index INFO Logging enabled at C:\Users\ly\GraphRAG\ragtest3\logs\indexing-engine.log
+16:12:33,942 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:12:33,944 openai._base_client INFO Retrying request to /chat/completions in 0.481721 seconds
+16:12:35,308 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:12:35,311 openai._base_client INFO Retrying request to /chat/completions in 0.765067 seconds
+16:12:36,972 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:12:36,974 openai._base_client INFO Retrying request to /chat/completions in 1.689008 seconds
+16:12:39,646 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:12:39,648 openai._base_client INFO Retrying request to /chat/completions in 3.493099 seconds
+16:12:44,90 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:12:44,91 openai._base_client INFO Retrying request to /chat/completions in 7.463956 seconds
+16:12:52,902 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:12:52,904 openai._base_client INFO Retrying request to /chat/completions in 6.086448 seconds
+16:13:00,391 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:13:00,392 openai._base_client INFO Retrying request to /chat/completions in 7.869441 seconds
+16:13:09,549 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:13:09,550 openai._base_client INFO Retrying request to /chat/completions in 7.798956 seconds
+16:13:18,719 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:13:18,721 openai._base_client INFO Retrying request to /chat/completions in 6.214708 seconds
+16:13:26,360 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:13:26,362 openai._base_client INFO Retrying request to /chat/completions in 7.170164 seconds
+16:13:34,908 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:15:00,987 graphrag.cli.index INFO Logging enabled at C:\Users\ly\GraphRAG\ragtest3\logs\indexing-engine.log
+16:15:04,843 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:15:04,845 openai._base_client INFO Retrying request to /chat/completions in 0.420787 seconds
+16:15:08,621 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:15:08,623 openai._base_client INFO Retrying request to /chat/completions in 0.847697 seconds
+16:15:16,429 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:15:16,431 openai._base_client INFO Retrying request to /chat/completions in 1.524484 seconds
+16:15:21,40 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:15:21,42 openai._base_client INFO Retrying request to /chat/completions in 3.251434 seconds
+16:15:29,643 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:15:29,645 openai._base_client INFO Retrying request to /chat/completions in 7.399640 seconds
+16:15:39,994 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:15:39,995 openai._base_client INFO Retrying request to /chat/completions in 7.768970 seconds
+16:15:50,300 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:15:50,302 openai._base_client INFO Retrying request to /chat/completions in 6.599630 seconds
+16:16:03,77 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:16:03,79 openai._base_client INFO Retrying request to /chat/completions in 6.300296 seconds
+16:16:12,552 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:16:12,554 openai._base_client INFO Retrying request to /chat/completions in 6.716345 seconds
+16:16:24,326 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:16:24,328 openai._base_client INFO Retrying request to /chat/completions in 7.385160 seconds
+16:16:40,423 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:17:58,752 graphrag.cli.index INFO Logging enabled at C:\Users\ly\GraphRAG\ragtest3\logs\indexing-engine.log
+16:18:02,241 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:18:02,243 openai._base_client INFO Retrying request to /chat/completions in 0.420938 seconds
+16:18:07,846 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:18:08,691 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:18:08,692 openai._base_client INFO Retrying request to /embeddings in 0.429777 seconds
+16:18:09,203 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:18:09,205 openai._base_client INFO Retrying request to /embeddings in 0.930336 seconds
+16:18:10,222 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:18:10,224 openai._base_client INFO Retrying request to /embeddings in 1.627412 seconds
+16:18:11,957 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:18:11,959 openai._base_client INFO Retrying request to /embeddings in 3.594653 seconds
+16:18:15,657 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:18:15,658 openai._base_client INFO Retrying request to /embeddings in 6.066272 seconds
+16:18:21,829 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:18:21,830 openai._base_client INFO Retrying request to /embeddings in 7.076070 seconds
+16:18:29,9 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:18:29,11 openai._base_client INFO Retrying request to /embeddings in 7.527817 seconds
+16:18:36,644 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:18:36,645 openai._base_client INFO Retrying request to /embeddings in 6.212910 seconds
+16:18:42,965 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:18:42,967 openai._base_client INFO Retrying request to /embeddings in 7.642414 seconds
+16:18:50,715 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:18:50,716 openai._base_client INFO Retrying request to /embeddings in 6.922468 seconds
+16:18:57,743 httpx INFO HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 500 Internal Server Error"
+16:25:24,526 graphrag.cli.index INFO Logging enabled at C:\Users\ly\GraphRAG\ragtest3\logs\indexing-engine.log
+16:25:27,244 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:25:30,73 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:25:30,85 graphrag.cli.index INFO Starting pipeline run. dry_run=False
+16:25:30,113 graphrag.cli.index INFO Using default configuration: {
+    "root_dir": "C:\\Users\\ly\\GraphRAG\\ragtest3",
+    "models": {
+        "default_chat_model": {
+            "api_key": "==== REDACTED ====",
+            "auth_type": "api_key",
+            "type": "openai_chat",
+            "model": "gpt-4-1106-preview",
+            "encoding_model": "cl100k_base",
+            "max_tokens": 4000,
+            "temperature": 0,
+            "top_p": 1,
+            "n": 1,
+            "frequency_penalty": 0.0,
+            "presence_penalty": 0.0,
+            "request_timeout": 180.0,
+            "api_base": "https://www.apigptopen.xyz/v1",
+            "api_version": null,
+            "deployment_name": null,
+            "proxy": null,
+            "audience": null,
+            "model_supports_json": true,
+            "tokens_per_minute": 0,
+            "requests_per_minute": 0,
+            "retry_strategy": "native",
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "concurrent_requests": 1,
+            "responses": null,
+            "async_mode": "asyncio"
+        },
+        "default_embedding_model": {
+            "api_key": "==== REDACTED ====",
+            "auth_type": "api_key",
+            "type": "openai_embedding",
+            "model": "mxbai-embed-large",
+            "encoding_model": "cl100k_base",
+            "max_tokens": 4000,
+            "temperature": 0,
+            "top_p": 1,
+            "n": 1,
+            "frequency_penalty": 0.0,
+            "presence_penalty": 0.0,
+            "request_timeout": 180.0,
+            "api_base": "http://localhost:11434/v1",
+            "api_version": null,
+            "deployment_name": null,
+            "proxy": null,
+            "audience": null,
+            "model_supports_json": true,
+            "tokens_per_minute": 0,
+            "requests_per_minute": 0,
+            "retry_strategy": "native",
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "concurrent_requests": 1,
+            "responses": null,
+            "async_mode": "asyncio"
+        }
+    },
+    "reporting": {
+        "type": "file",
+        "base_dir": "C:\\Users\\ly\\GraphRAG\\ragtest3\\logs",
+        "storage_account_blob_url": null
+    },
+    "output": {
+        "type": "file",
+        "base_dir": "C:\\Users\\ly\\GraphRAG\\ragtest3\\output",
+        "storage_account_blob_url": null,
+        "cosmosdb_account_url": null
+    },
+    "outputs": null,
+    "update_index_output": {
+        "type": "file",
+        "base_dir": "C:\\Users\\ly\\GraphRAG\\ragtest3\\update_output",
+        "storage_account_blob_url": null,
+        "cosmosdb_account_url": null
+    },
+    "cache": {
+        "type": "file",
+        "base_dir": "cache",
+        "storage_account_blob_url": null,
+        "cosmosdb_account_url": null
+    },
+    "input": {
+        "type": "file",
+        "file_type": "text",
+        "base_dir": "input",
+        "storage_account_blob_url": null,
+        "encoding": "utf-8",
+        "file_pattern": ".*\\.txt$",
+        "file_filter": null,
+        "text_column": "text",
+        "title_column": null,
+        "metadata": null
+    },
+    "embed_graph": {
+        "enabled": false,
+        "dimensions": 1536,
+        "num_walks": 10,
+        "walk_length": 40,
+        "window_size": 2,
+        "iterations": 3,
+        "random_seed": 597832,
+        "use_lcc": true
+    },
+    "embed_text": {
+        "batch_size": 16,
+        "batch_max_tokens": 8191,
+        "target": "required",
+        "names": [],
+        "strategy": null,
+        "model_id": "default_embedding_model",
+        "vector_store_id": "default_vector_store"
+    },
+    "chunks": {
+        "size": 1200,
+        "overlap": 300,
+        "group_by_columns": [
+            "id"
+        ],
+        "strategy": "tokens",
+        "encoding_model": "cl100k_base",
+        "prepend_metadata": false,
+        "chunk_size_includes_metadata": false
+    },
+    "snapshots": {
+        "embeddings": false,
+        "graphml": false
+    },
+    "extract_graph": {
+        "prompt": "prompts/extract_graph.txt",
+        "entity_types": [
+            "ORGANIZATION",
+            "PERSON",
+            "GEO",
+            "EVENT",
+            "DATE"
+        ],
+        "max_gleanings": 1,
+        "strategy": null,
+        "encoding_model": null,
+        "model_id": "default_chat_model"
+    },
+    "extract_graph_nlp": {
+        "normalize_edge_weights": true,
+        "text_analyzer": {
+            "extractor_type": "regex_english",
+            "model_name": "en_core_web_md",
+            "max_word_length": 15,
+            "word_delimiter": " ",
+            "include_named_entities": true,
+            "exclude_nouns": null,
+            "exclude_entity_tags": [
+                "DATE"
+            ],
+            "exclude_pos_tags": [
+                "DET",
+                "PRON",
+                "INTJ",
+                "X"
+            ],
+            "noun_phrase_tags": [
+                "PROPN",
+                "NOUNS"
+            ],
+            "noun_phrase_grammars": {
+                "PROPN,PROPN": "PROPN",
+                "NOUN,NOUN": "NOUNS",
+                "NOUNS,NOUN": "NOUNS",
+                "ADJ,ADJ": "ADJ",
+                "ADJ,NOUN": "NOUNS"
+            }
+        },
+        "concurrent_requests": 25
+    },
+    "summarize_descriptions": {
+        "prompt": "prompts/summarize_descriptions.txt",
+        "max_length": 500,
+        "strategy": null,
+        "model_id": "default_chat_model"
+    },
+    "community_reports": {
+        "graph_prompt": "prompts/community_report_graph.txt",
+        "text_prompt": "prompts/community_report_text.txt",
+        "max_length": 2000,
+        "max_input_length": 8000,
+        "strategy": null,
+        "model_id": "default_chat_model"
+    },
+    "extract_claims": {
+        "enabled": false,
+        "prompt": "prompts/extract_claims.txt",
+        "description": "Any claims or facts that could be relevant to information discovery.",
+        "max_gleanings": 1,
+        "strategy": null,
+        "encoding_model": null,
+        "model_id": "default_chat_model"
+    },
+    "prune_graph": {
+        "min_node_freq": 2,
+        "max_node_freq_std": null,
+        "min_node_degree": 1,
+        "max_node_degree_std": null,
+        "min_edge_weight_pct": 40,
+        "remove_ego_nodes": false,
+        "lcc_only": false
+    },
+    "cluster_graph": {
+        "max_cluster_size": 10,
+        "use_lcc": true,
+        "seed": 3735928559
+    },
+    "umap": {
+        "enabled": false
+    },
+    "local_search": {
+        "prompt": "prompts/local_search_system_prompt.txt",
+        "chat_model_id": "default_chat_model",
+        "embedding_model_id": "default_embedding_model",
+        "text_unit_prop": 0.5,
+        "community_prop": 0.15,
+        "conversation_history_max_turns": 5,
+        "top_k_entities": 10,
+        "top_k_relationships": 10,
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "max_tokens": 12000,
+        "llm_max_tokens": 2000
+    },
+    "global_search": {
+        "map_prompt": "prompts/global_search_map_system_prompt.txt",
+        "reduce_prompt": "prompts/global_search_reduce_system_prompt.txt",
+        "chat_model_id": "default_chat_model",
+        "knowledge_prompt": "prompts/global_search_knowledge_system_prompt.txt",
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "max_tokens": 12000,
+        "data_max_tokens": 12000,
+        "map_max_tokens": 1000,
+        "reduce_max_tokens": 2000,
+        "concurrency": 32,
+        "dynamic_search_llm": "gpt-4o-mini",
+        "dynamic_search_threshold": 1,
+        "dynamic_search_keep_parent": false,
+        "dynamic_search_num_repeats": 1,
+        "dynamic_search_use_summary": false,
+        "dynamic_search_concurrent_coroutines": 16,
+        "dynamic_search_max_level": 2
+    },
+    "drift_search": {
+        "prompt": "prompts/drift_search_system_prompt.txt",
+        "reduce_prompt": "prompts/drift_search_reduce_prompt.txt",
+        "chat_model_id": "default_chat_model",
+        "embedding_model_id": "default_embedding_model",
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "max_tokens": 12000,
+        "data_max_tokens": 12000,
+        "reduce_max_tokens": 2000,
+        "reduce_temperature": 0,
+        "concurrency": 32,
+        "drift_k_followups": 20,
+        "primer_folds": 5,
+        "primer_llm_max_tokens": 12000,
+        "n_depth": 3,
+        "local_search_text_unit_prop": 0.9,
+        "local_search_community_prop": 0.1,
+        "local_search_top_k_mapped_entities": 10,
+        "local_search_top_k_relationships": 10,
+        "local_search_max_data_tokens": 12000,
+        "local_search_temperature": 0,
+        "local_search_top_p": 1,
+        "local_search_n": 1,
+        "local_search_llm_max_gen_tokens": 4096
+    },
+    "basic_search": {
+        "prompt": "prompts/basic_search_system_prompt.txt",
+        "chat_model_id": "default_chat_model",
+        "embedding_model_id": "default_embedding_model",
+        "text_unit_prop": 0.5,
+        "conversation_history_max_turns": 5,
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "max_tokens": 12000,
+        "llm_max_tokens": 2000
+    },
+    "vector_store": {
+        "default_vector_store": {
+            "type": "lancedb",
+            "db_uri": "C:\\Users\\ly\\GraphRAG\\ragtest3\\output\\lancedb",
+            "url": null,
+            "audience": null,
+            "container_name": "==== REDACTED ====",
+            "database_name": null,
+            "overwrite": true
+        }
+    },
+    "workflows": null
+}
+16:25:30,116 graphrag.storage.file_pipeline_storage INFO Creating file storage at C:\Users\ly\GraphRAG\ragtest3\output
+16:25:30,117 graphrag.index.input.factory INFO loading input from root_dir=input
+16:25:30,117 graphrag.index.input.factory INFO using file storage for input
+16:25:30,122 graphrag.storage.file_pipeline_storage INFO search C:\Users\ly\GraphRAG\ragtest3\input for files matching .*\.txt$
+16:25:30,124 graphrag.index.input.text INFO found text files from input, found [('poem1.txt', {}), ('poem2.txt', {}), ('poem3.txt', {}), ('poem4.txt', {}), ('poem5.txt', {}), ('poem6.txt', {}), ('poem7.txt', {}), ('临海.txt', {}), ('南京.txt', {}), ('南京2.txt', {}), ('和县.txt', {}), ('宁波.txt', {}), ('开封.txt', {}), ('昌乐.txt', {}), ('杭州.txt', {}), ('桐庐.txt', {}), ('济南.txt', {}), ('淄川.txt', {}), ('温州.txt', {}), ('益都.txt', {}), ('章丘.txt', {}), ('绍兴.txt', {}), ('莱州.txt', {}), ('衢州.txt', {}), ('贵池.txt', {}), ('金华.txt', {}), ('黄岩.txt', {})]
+16:25:30,367 graphrag.index.input.text INFO Found 27 files, loading 27
+16:25:30,414 graphrag.index.run.run_pipeline INFO Final # of rows loaded: 27
+16:25:30,764 graphrag.utils.storage INFO reading table from storage: documents.parquet
+16:25:31,472 graphrag.utils.storage INFO reading table from storage: documents.parquet
+16:25:31,487 graphrag.utils.storage INFO reading table from storage: text_units.parquet
+16:25:31,585 graphrag.utils.storage INFO reading table from storage: text_units.parquet
+16:25:53,150 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:26:03,297 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:26:38,445 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:27:00,236 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:27:12,965 graphrag.callbacks.file_workflow_callbacks INFO Error Invoking LLM details={'prompt': '-目标-\n给定一个可能与此活动相关的文本文档和实体类型列表，识别出文本中所有这些类型的实体以及识别出的实体之间的所有关系。文本内容是关于 李清照 的生平事迹。\n\n-步骤-\n1.识别所有实体。对于每个识别出的实体，提取以下信息：\nentity_name: 实体名称，首字母大写\nentity_type: 以下类型之一：[ORGANIZATION,PERSON,GEO,EVENT,DATE]\nentity_description: 实体属性和活动的详细描述\n将每个实体格式化为 ("entity"<|><entity_name><|><entity_type><|><entity_description>)\n\n2.从步骤1中识别出的实体中，找出所有明显相关 的（source_entity, target_entity）对。\n对于每对相关的实体，提取以下信息：\nsource_entity: 源实体的名称，如步骤1中所识别\ntarget_entity: 目标实体的名称，如步骤1中所识别\nrelationship_description: 认为源实体和目标实体相关的解释\nrelationship_strength: 表示源实体与目标实体之间关系强度的数字评分\n将每个关系格式化为 ("relationship"<|><source_entity><|><target_entity><|><relationship_description><|><relationship_strength>)\n\n3.将步骤1和步骤2中识别出的所有实体和关系以英文返回为单个列表。使用 ## 作为列表分隔符。\n\n4.完成后，输出 <|COMPLETE|>\n\n######################\n-案例-\n######################\n案例 1:\nEntity_types: GEO, PERSON, DATE\nText:\n开封（1126年5月，43岁）\n1126年，43岁\n1126年5月\u3000夏，夫妻共赏白居易所书《楞严经》\n######################\nOutput:\n("entity"<|>开封<|>GEO<|>地点，中国历史上的城市)\n##\n("entity"<|>1126年<|>DATE<|>年份，记录事件发生的时间)\n##\n("entity"<|>1126年5月<|>DATE<|>具体时间，事件发生的月份)\n##\n("entity"<|>白居易<|>PERSON<|>唐代著名诗人，书写《楞严经》的作者)\n##\n("relationship"<|>开封<|>1126年5月<|>在1126年5月，事件发生在开封<|>2)\n##\n("relationship"<|>夫妻<|>白居易<|>夫妻欣赏了白居易所书写的《楞严经》<|>2)\n##\n("relationship"<|>1126年5月<|>白居易<|>在1126年5月，夫妻共赏白居易的作品<|>2)\n<|COMPLETE|>\n\n######################\n案例 2:\nEntity_types: ORGANIZATION,GEO,PERSON,DATE\nText:\n莱州（掖县）（1121年8月18日 - 1123年，38-40岁，作品：2）\n1121-1123年，38-40岁\n1121年8月18日\u3000到莱州，有诗。作品：《感怀》\n感怀（1121年8月18日） 宋 · 李清照\n寒窗败几无书史，公路可怜竟至此。\n青州从事孔方君，终日纷纷喜生事。\n作诗谢绝聊闭门，燕寝凝香有佳思。\n静中我乃得知交，乌有先生子虚子⑴。\n⑴ 以上明郦琥《彤管遣编》续集卷一七\n\n1122年\u3000夫妇居莱州，明诚屡得石刻碑铭，清照有诗。作品：《晓梦》\n晓梦（1122年） 宋 · 李清照\n晓梦随疏钟，飘然蹑云霞。\n因缘安期生，邂逅萼绿华。\n秋风正无赖，吹尽玉井花。\n共看藕如船，同食枣如瓜。\n翩翩坐上客，意妙语亦佳。\n嘲辞斗诡辨，活火分新茶。\n虽非助帝功，其乐莫可涯。\n人生能如此，何必归故家。\n起来敛衣坐，掩耳厌喧哗。\n心知不可见，念念犹咨嗟。\n\n1123年\u3000居莱州，于静治堂助明诚整理《金石录》\n\n######################\nOutput:\n("entity"<|>莱州<|>GEO<|>李清照在1121年至1123年间居住的地方)\n##\n("entity"<|>掖县<|>GEO<|>莱州的古称)\n##\n("entity"<|>青州<|>GEO<|>李清照提到的地点之一)\n##\n("entity"<|>玉井<|>GEO<|>《晓梦》诗中提到的地点)\n##\n("entity"<|>静治堂<|>GEO<|>李清照与明诚整理《金石录》的地方)\n##\n("entity"<|>李清照<|>PERSON<|>宋代著名女词人，创作了《感怀》和《晓梦》)\n##\n("entity"<|>明诚<|>PERSON<|>李清照的丈夫，与她共同整理《金石录》)\n##\n("entity"<|>安期生<|>PERSON<|>《晓梦》诗中提到的仙人)\n##\n("entity"<|>萼绿华<|>PERSON<|>《晓梦》诗中提到的仙女)\n##\n("entity"<|>郦琥<|>PERSON<|>明代学者，其著作《彤管遣编》收录了李清照的作品)\n##\n("entity"<|>乌有先生<|>PERSON<|>李清照诗中虚构的人物)\n##\n("entity"<|>子虚子<|>PERSON<|>李清照诗中虚构的人物)\n##\n("entity"<|>《感怀》<|>ORGANIZATION<|>李清照于1121年创作的诗作)\n##\n("entity"<|>《晓梦》<|>ORGANIZATION<|>李清照于1122年创作的诗作)\n##\n("entity"<|>《金石录》<|>ORGANIZATION<|>李清照与明诚整理的金石学著作)\n##\n("entity"<|>1121年8月18日<|>TIME<|>李清照到达莱州并创作《感怀》的时间)\n##\n("entity"<|>1121年<|>TIME<|>李清照开始在莱州居住的时间)\n##\n("entity"<|>1122年<|>TIME<|>李清照创作《晓梦》的时间)\n##\n("entity"<|>1123年<|>TIME<|>李清照与明诚在静治堂整理《金石录》的时间)\n##\n("relationship"<|>李清照<|>莱州<|>李清照在莱州居住并创作了多首诗作<|>2)\n##\n("relationship"<|>李清照<|>明诚<|>李清照与明诚共同整理《金石录》<|>2)\n##\n("relationship"<|>李清照<|>《感怀》<|>李清照于1121年8月18日创作了《感怀》<|>2)\n##\n("relationship"<|>李清照<|>《晓梦》<|>李清照于1122年创作了《晓梦》<|>2)\n##\n("relationship"<|>李清照<|>静治堂<|>李清照在静治堂协助明诚整理《金石录》<|>2)\n##\n("relationship"<|>明诚<|>《金石录》<|>明诚在莱州整理《金石录》<|>2)\n##\n("relationship"<|>李清照<|>乌有先生<|>李清照在《感怀》中提到了乌有先生<|>2)\n##\n("relationship"<|>李清照<|>子虚子<|>李清照在《感怀》中提到了子虚子<|>2)\n##\n("relationship"<|>李清照<|>安期生<|>李清照在《晓梦》中提到了安期生<|>2)\n##\n("relationship"<|>李清照<|>萼绿华<|>李清照在《晓梦》中提到了萼绿华<|>2)\n##\n("relationship"<|>李清照<|>郦琥<|>郦琥在其著作《彤管遣编》中收录了李清照的作品<|>2)\n##\n("relationship"<|>李清照<|>1121年8月18日<|>李清照于1121年8月18日到达莱州并创作了《感怀》<|>2)\n##\n("relationship"<|>李清照<|>1122年<|>李清照于1122年创作了《晓梦》<|>2)\n##\n("relationship"<|>李清照<|>1123年<|>李清照于1123年在静治堂整理《金石录》<|>2)\n<|COMPLETE|>\n\n######################\n-真实数据-\n######################\nEntity_types: ORGANIZATION,PERSON,GEO,EVENT,DATE\nText: 7月\u3000金人立刘豫为帝，清照作诗斥伪齐。作品：《咏史》\n\n绍兴（1131年3月 - 1131年8月4日，48岁）\n1131年，48岁\n1131年3月\u3000复追随高宗赴越州，文物被盗五簏。\n1131年8月4日\u3000弟李迒转一官，权工部侍郎。\n######################\n输出:', 'kwargs': {}}
+16:27:53,122 graphrag.cli.index INFO Logging enabled at C:\Users\ly\GraphRAG\ragtest3\logs\indexing-engine.log
+16:27:55,284 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:27:56,248 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:27:56,258 graphrag.cli.index INFO Starting pipeline run. dry_run=False
+16:27:56,260 graphrag.cli.index INFO Using default configuration: {
+    "root_dir": "C:\\Users\\ly\\GraphRAG\\ragtest3",
+    "models": {
+        "default_chat_model": {
+            "api_key": "==== REDACTED ====",
+            "auth_type": "api_key",
+            "type": "openai_chat",
+            "model": "gpt-4-1106-preview",
+            "encoding_model": "cl100k_base",
+            "max_tokens": 4000,
+            "temperature": 0,
+            "top_p": 1,
+            "n": 1,
+            "frequency_penalty": 0.0,
+            "presence_penalty": 0.0,
+            "request_timeout": 180.0,
+            "api_base": "https://www.apigptopen.xyz/v1",
+            "api_version": null,
+            "deployment_name": null,
+            "proxy": null,
+            "audience": null,
+            "model_supports_json": true,
+            "tokens_per_minute": 0,
+            "requests_per_minute": 0,
+            "retry_strategy": "native",
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "concurrent_requests": 25,
+            "responses": null,
+            "async_mode": "asyncio"
+        },
+        "default_embedding_model": {
+            "api_key": "==== REDACTED ====",
+            "auth_type": "api_key",
+            "type": "openai_embedding",
+            "model": "mxbai-embed-large",
+            "encoding_model": "cl100k_base",
+            "max_tokens": 4000,
+            "temperature": 0,
+            "top_p": 1,
+            "n": 1,
+            "frequency_penalty": 0.0,
+            "presence_penalty": 0.0,
+            "request_timeout": 180.0,
+            "api_base": "http://localhost:11434/v1",
+            "api_version": null,
+            "deployment_name": null,
+            "proxy": null,
+            "audience": null,
+            "model_supports_json": true,
+            "tokens_per_minute": 0,
+            "requests_per_minute": 0,
+            "retry_strategy": "native",
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "concurrent_requests": 4,
+            "responses": null,
+            "async_mode": "asyncio"
+        }
+    },
+    "reporting": {
+        "type": "file",
+        "base_dir": "C:\\Users\\ly\\GraphRAG\\ragtest3\\logs",
+        "storage_account_blob_url": null
+    },
+    "output": {
+        "type": "file",
+        "base_dir": "C:\\Users\\ly\\GraphRAG\\ragtest3\\output",
+        "storage_account_blob_url": null,
+        "cosmosdb_account_url": null
+    },
+    "outputs": null,
+    "update_index_output": {
+        "type": "file",
+        "base_dir": "C:\\Users\\ly\\GraphRAG\\ragtest3\\update_output",
+        "storage_account_blob_url": null,
+        "cosmosdb_account_url": null
+    },
+    "cache": {
+        "type": "file",
+        "base_dir": "cache",
+        "storage_account_blob_url": null,
+        "cosmosdb_account_url": null
+    },
+    "input": {
+        "type": "file",
+        "file_type": "text",
+        "base_dir": "input",
+        "storage_account_blob_url": null,
+        "encoding": "utf-8",
+        "file_pattern": ".*\\.txt$",
+        "file_filter": null,
+        "text_column": "text",
+        "title_column": null,
+        "metadata": null
+    },
+    "embed_graph": {
+        "enabled": false,
+        "dimensions": 1536,
+        "num_walks": 10,
+        "walk_length": 40,
+        "window_size": 2,
+        "iterations": 3,
+        "random_seed": 597832,
+        "use_lcc": true
+    },
+    "embed_text": {
+        "batch_size": 16,
+        "batch_max_tokens": 8191,
+        "target": "required",
+        "names": [],
+        "strategy": null,
+        "model_id": "default_embedding_model",
+        "vector_store_id": "default_vector_store"
+    },
+    "chunks": {
+        "size": 1200,
+        "overlap": 300,
+        "group_by_columns": [
+            "id"
+        ],
+        "strategy": "tokens",
+        "encoding_model": "cl100k_base",
+        "prepend_metadata": false,
+        "chunk_size_includes_metadata": false
+    },
+    "snapshots": {
+        "embeddings": false,
+        "graphml": false
+    },
+    "extract_graph": {
+        "prompt": "prompts/extract_graph.txt",
+        "entity_types": [
+            "ORGANIZATION",
+            "PERSON",
+            "GEO",
+            "EVENT",
+            "DATE"
+        ],
+        "max_gleanings": 1,
+        "strategy": null,
+        "encoding_model": null,
+        "model_id": "default_chat_model"
+    },
+    "extract_graph_nlp": {
+        "normalize_edge_weights": true,
+        "text_analyzer": {
+            "extractor_type": "regex_english",
+            "model_name": "en_core_web_md",
+            "max_word_length": 15,
+            "word_delimiter": " ",
+            "include_named_entities": true,
+            "exclude_nouns": null,
+            "exclude_entity_tags": [
+                "DATE"
+            ],
+            "exclude_pos_tags": [
+                "DET",
+                "PRON",
+                "INTJ",
+                "X"
+            ],
+            "noun_phrase_tags": [
+                "PROPN",
+                "NOUNS"
+            ],
+            "noun_phrase_grammars": {
+                "PROPN,PROPN": "PROPN",
+                "NOUN,NOUN": "NOUNS",
+                "NOUNS,NOUN": "NOUNS",
+                "ADJ,ADJ": "ADJ",
+                "ADJ,NOUN": "NOUNS"
+            }
+        },
+        "concurrent_requests": 25
+    },
+    "summarize_descriptions": {
+        "prompt": "prompts/summarize_descriptions.txt",
+        "max_length": 500,
+        "strategy": null,
+        "model_id": "default_chat_model"
+    },
+    "community_reports": {
+        "graph_prompt": "prompts/community_report_graph.txt",
+        "text_prompt": "prompts/community_report_text.txt",
+        "max_length": 2000,
+        "max_input_length": 8000,
+        "strategy": null,
+        "model_id": "default_chat_model"
+    },
+    "extract_claims": {
+        "enabled": false,
+        "prompt": "prompts/extract_claims.txt",
+        "description": "Any claims or facts that could be relevant to information discovery.",
+        "max_gleanings": 1,
+        "strategy": null,
+        "encoding_model": null,
+        "model_id": "default_chat_model"
+    },
+    "prune_graph": {
+        "min_node_freq": 2,
+        "max_node_freq_std": null,
+        "min_node_degree": 1,
+        "max_node_degree_std": null,
+        "min_edge_weight_pct": 40,
+        "remove_ego_nodes": false,
+        "lcc_only": false
+    },
+    "cluster_graph": {
+        "max_cluster_size": 10,
+        "use_lcc": true,
+        "seed": 3735928559
+    },
+    "umap": {
+        "enabled": false
+    },
+    "local_search": {
+        "prompt": "prompts/local_search_system_prompt.txt",
+        "chat_model_id": "default_chat_model",
+        "embedding_model_id": "default_embedding_model",
+        "text_unit_prop": 0.5,
+        "community_prop": 0.15,
+        "conversation_history_max_turns": 5,
+        "top_k_entities": 10,
+        "top_k_relationships": 10,
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "max_tokens": 12000,
+        "llm_max_tokens": 2000
+    },
+    "global_search": {
+        "map_prompt": "prompts/global_search_map_system_prompt.txt",
+        "reduce_prompt": "prompts/global_search_reduce_system_prompt.txt",
+        "chat_model_id": "default_chat_model",
+        "knowledge_prompt": "prompts/global_search_knowledge_system_prompt.txt",
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "max_tokens": 12000,
+        "data_max_tokens": 12000,
+        "map_max_tokens": 1000,
+        "reduce_max_tokens": 2000,
+        "concurrency": 32,
+        "dynamic_search_llm": "gpt-4o-mini",
+        "dynamic_search_threshold": 1,
+        "dynamic_search_keep_parent": false,
+        "dynamic_search_num_repeats": 1,
+        "dynamic_search_use_summary": false,
+        "dynamic_search_concurrent_coroutines": 16,
+        "dynamic_search_max_level": 2
+    },
+    "drift_search": {
+        "prompt": "prompts/drift_search_system_prompt.txt",
+        "reduce_prompt": "prompts/drift_search_reduce_prompt.txt",
+        "chat_model_id": "default_chat_model",
+        "embedding_model_id": "default_embedding_model",
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "max_tokens": 12000,
+        "data_max_tokens": 12000,
+        "reduce_max_tokens": 2000,
+        "reduce_temperature": 0,
+        "concurrency": 32,
+        "drift_k_followups": 20,
+        "primer_folds": 5,
+        "primer_llm_max_tokens": 12000,
+        "n_depth": 3,
+        "local_search_text_unit_prop": 0.9,
+        "local_search_community_prop": 0.1,
+        "local_search_top_k_mapped_entities": 10,
+        "local_search_top_k_relationships": 10,
+        "local_search_max_data_tokens": 12000,
+        "local_search_temperature": 0,
+        "local_search_top_p": 1,
+        "local_search_n": 1,
+        "local_search_llm_max_gen_tokens": 4096
+    },
+    "basic_search": {
+        "prompt": "prompts/basic_search_system_prompt.txt",
+        "chat_model_id": "default_chat_model",
+        "embedding_model_id": "default_embedding_model",
+        "text_unit_prop": 0.5,
+        "conversation_history_max_turns": 5,
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "max_tokens": 12000,
+        "llm_max_tokens": 2000
+    },
+    "vector_store": {
+        "default_vector_store": {
+            "type": "lancedb",
+            "db_uri": "C:\\Users\\ly\\GraphRAG\\ragtest3\\output\\lancedb",
+            "url": null,
+            "audience": null,
+            "container_name": "==== REDACTED ====",
+            "database_name": null,
+            "overwrite": true
+        }
+    },
+    "workflows": null
+}
+16:27:56,263 graphrag.storage.file_pipeline_storage INFO Creating file storage at C:\Users\ly\GraphRAG\ragtest3\output
+16:27:56,264 graphrag.index.input.factory INFO loading input from root_dir=input
+16:27:56,264 graphrag.index.input.factory INFO using file storage for input
+16:27:56,269 graphrag.storage.file_pipeline_storage INFO search C:\Users\ly\GraphRAG\ragtest3\input for files matching .*\.txt$
+16:27:56,271 graphrag.index.input.text INFO found text files from input, found [('poem1.txt', {}), ('poem2.txt', {}), ('poem3.txt', {}), ('poem4.txt', {}), ('poem5.txt', {}), ('poem6.txt', {}), ('poem7.txt', {}), ('临海.txt', {}), ('南京.txt', {}), ('南京2.txt', {}), ('和县.txt', {}), ('宁波.txt', {}), ('开封.txt', {}), ('昌乐.txt', {}), ('杭州.txt', {}), ('桐庐.txt', {}), ('济南.txt', {}), ('淄川.txt', {}), ('温州.txt', {}), ('益都.txt', {}), ('章丘.txt', {}), ('绍兴.txt', {}), ('莱州.txt', {}), ('衢州.txt', {}), ('贵池.txt', {}), ('金华.txt', {}), ('黄岩.txt', {})]
+16:27:56,354 graphrag.index.input.text INFO Found 27 files, loading 27
+16:27:56,359 graphrag.index.run.run_pipeline INFO Final # of rows loaded: 27
+16:27:56,378 graphrag.utils.storage INFO reading table from storage: documents.parquet
+16:27:56,597 graphrag.utils.storage INFO reading table from storage: documents.parquet
+16:27:56,607 graphrag.utils.storage INFO reading table from storage: text_units.parquet
+16:27:56,761 graphrag.utils.storage INFO reading table from storage: text_units.parquet
+16:28:00,853 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:01,191 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:05,835 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:06,734 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:11,15 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:12,872 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:14,618 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:15,267 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:20,146 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:20,314 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:20,354 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:21,37 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:21,93 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:22,931 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:23,382 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:24,270 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:24,470 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:25,947 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:26,878 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:26,969 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:28,537 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:30,256 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:30,406 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:30,641 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:31,52 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:38,450 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:39,74 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:39,946 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:40,243 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:41,97 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:41,269 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:41,383 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:41,830 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:41,871 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:43,178 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:43,612 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:44,123 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:44,673 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:45,292 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:45,472 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:45,820 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:48,863 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:51,457 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:51,694 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:53,353 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:53,404 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:57,214 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:57,926 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:57,980 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:58,303 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:59,229 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:28:59,412 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:01,174 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:02,839 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:03,886 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:04,18 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:04,138 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:04,308 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:04,656 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:04,782 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:06,215 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:06,815 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:07,198 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:08,365 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:09,300 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:10,236 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:10,273 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:10,749 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:12,18 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:12,501 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:12,558 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:12,560 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:12,861 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:13,369 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:14,31 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:14,100 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:14,991 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:15,813 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:16,581 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:17,360 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:20,190 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:20,794 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:23,349 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:26,451 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:26,492 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:31,593 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:32,711 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:35,836 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:36,383 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:36,922 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:37,551 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:38,532 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:40,96 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:41,176 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:42,542 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:42,596 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:42,883 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:43,232 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:43,522 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:43,570 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:44,549 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:46,504 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:46,547 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:47,919 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:48,214 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:49,236 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:50,727 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:53,158 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:54,703 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:55,427 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:58,201 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:58,291 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:59,760 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:29:59,998 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:00,955 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:01,629 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:01,746 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:02,261 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:02,831 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:02,977 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:04,485 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:05,356 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:08,383 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:10,698 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:10,842 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:14,480 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:14,573 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:15,524 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:16,285 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:16,686 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:17,165 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:17,206 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:20,240 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:20,246 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:21,478 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:24,900 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:25,810 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:26,173 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:26,974 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:27,354 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:27,617 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:27,730 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:27,819 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:30,166 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:30,969 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:31,148 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:31,658 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:31,810 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:35,178 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:37,567 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:37,625 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:38,187 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:39,536 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:40,441 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:41,401 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:42,983 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:43,463 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:43,520 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:43,990 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:44,361 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:45,11 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:45,462 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:45,783 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:46,400 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:47,957 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:48,240 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:49,410 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:49,485 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:50,804 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:52,284 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:52,487 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:57,473 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:30:57,741 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:31:01,511 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:31:01,836 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:31:03,828 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:03,830 openai._base_client INFO Retrying request to /chat/completions in 0.468837 seconds
+16:31:03,831 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:03,833 openai._base_client INFO Retrying request to /chat/completions in 0.469533 seconds
+16:31:03,880 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:03,882 openai._base_client INFO Retrying request to /chat/completions in 0.375389 seconds
+16:31:03,883 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:03,883 openai._base_client INFO Retrying request to /chat/completions in 0.464898 seconds
+16:31:03,886 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:03,887 openai._base_client INFO Retrying request to /chat/completions in 0.465339 seconds
+16:31:03,915 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:03,916 openai._base_client INFO Retrying request to /chat/completions in 0.381300 seconds
+16:31:03,918 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:03,919 openai._base_client INFO Retrying request to /chat/completions in 0.385741 seconds
+16:31:03,937 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:03,939 openai._base_client INFO Retrying request to /chat/completions in 0.390431 seconds
+16:31:03,998 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:04,0 openai._base_client INFO Retrying request to /chat/completions in 0.473286 seconds
+16:31:04,192 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:04,194 openai._base_client INFO Retrying request to /chat/completions in 0.439659 seconds
+16:31:05,952 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:05,954 openai._base_client INFO Retrying request to /chat/completions in 0.776878 seconds
+16:31:05,955 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:05,957 openai._base_client INFO Retrying request to /chat/completions in 0.857524 seconds
+16:31:06,119 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:06,121 openai._base_client INFO Retrying request to /chat/completions in 0.932600 seconds
+16:31:06,504 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:06,507 openai._base_client INFO Retrying request to /chat/completions in 0.808231 seconds
+16:31:06,914 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:06,916 openai._base_client INFO Retrying request to /chat/completions in 0.754853 seconds
+16:31:07,51 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:07,55 openai._base_client INFO Retrying request to /chat/completions in 0.815805 seconds
+16:31:07,951 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:07,953 openai._base_client INFO Retrying request to /chat/completions in 1.545070 seconds
+16:31:08,5 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:08,22 openai._base_client INFO Retrying request to /chat/completions in 1.787195 seconds
+16:31:08,535 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:08,536 openai._base_client INFO Retrying request to /chat/completions in 1.838254 seconds
+16:31:08,946 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:08,948 openai._base_client INFO Retrying request to /chat/completions in 1.723475 seconds
+16:31:10,435 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:31:10,436 openai._base_client INFO Retrying request to /chat/completions in 0.913259 seconds
+16:31:10,685 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:31:10,687 openai._base_client INFO Retrying request to /chat/completions in 0.480231 seconds
+16:31:11,798 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:11,800 openai._base_client INFO Retrying request to /chat/completions in 3.898028 seconds
+16:31:11,992 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:11,994 openai._base_client INFO Retrying request to /chat/completions in 3.636814 seconds
+16:31:12,398 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:12,400 openai._base_client INFO Retrying request to /chat/completions in 0.841366 seconds
+16:31:12,624 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:12,626 openai._base_client INFO Retrying request to /chat/completions in 1.610336 seconds
+16:31:12,857 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:12,860 openai._base_client INFO Retrying request to /chat/completions in 0.476132 seconds
+16:31:17,800 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:17,802 openai._base_client INFO Retrying request to /chat/completions in 1.557935 seconds
+16:31:18,901 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:18,903 openai._base_client INFO Retrying request to /chat/completions in 6.978348 seconds
+16:31:18,904 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:18,905 openai._base_client INFO Retrying request to /chat/completions in 6.683945 seconds
+16:31:19,401 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:19,402 openai._base_client INFO Retrying request to /chat/completions in 0.452997 seconds
+16:31:20,914 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:20,916 openai._base_client INFO Retrying request to /chat/completions in 0.443936 seconds
+16:31:22,222 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:31:22,225 openai._base_client INFO Retrying request to /chat/completions in 0.454235 seconds
+16:31:23,428 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:23,430 openai._base_client INFO Retrying request to /chat/completions in 3.343698 seconds
+16:31:23,638 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:23,640 openai._base_client INFO Retrying request to /chat/completions in 0.922638 seconds
+16:31:23,941 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:31:23,943 openai._base_client INFO Retrying request to /chat/completions in 0.892903 seconds
+16:31:24,25 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:24,27 openai._base_client INFO Retrying request to /chat/completions in 0.940307 seconds
+16:31:25,537 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:25,539 openai._base_client INFO Retrying request to /chat/completions in 0.901885 seconds
+16:31:27,567 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:31:27,569 openai._base_client INFO Retrying request to /chat/completions in 0.874846 seconds
+16:31:29,743 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:29,745 openai._base_client INFO Retrying request to /chat/completions in 1.571342 seconds
+16:31:29,758 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:29,759 openai._base_client INFO Retrying request to /chat/completions in 0.867256 seconds
+16:31:30,168 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:31:30,170 openai._base_client INFO Retrying request to /chat/completions in 6.228930 seconds
+16:31:32,259 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:31:34,556 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:31:37,118 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:31:44,564 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:31:47,154 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:31:49,337 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:31:54,756 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:31:58,600 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:02,52 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:06,640 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:07,103 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:10,580 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:11,730 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:13,673 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:32:13,675 openai._base_client INFO Retrying request to /chat/completions in 0.482418 seconds
+16:32:19,204 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:21,33 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:28,219 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:29,538 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:45,227 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:32:53,996 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:33:01,237 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:33:04,416 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:33:23,668 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:36:04,459 openai._base_client INFO Retrying request to /chat/completions in 0.375393 seconds
+16:37:04,517 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:12,669 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:13,246 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:13,770 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:14,541 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:14,567 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:14,569 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:14,886 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:14,911 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:14,972 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:15,53 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:15,200 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:15,943 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:16,467 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:16,857 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:17,247 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:17,352 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:18,36 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:18,317 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:18,502 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:20,974 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:21,359 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:22,185 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:22,319 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:22,367 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:22,949 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:23,411 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:23,593 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:23,968 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:24,82 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:24,89 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:24,300 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:24,413 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:24,640 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:25,49 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:25,294 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:25,608 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:25,901 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:26,121 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:27,160 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:28,748 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:29,709 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:30,294 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:30,644 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:31,128 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:31,232 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:31,485 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:31,726 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:32,356 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:32,364 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:32,445 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:33,441 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:33,465 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:33,887 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:33,956 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:34,154 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:35,357 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:36,333 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:36,360 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:36,425 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:36,524 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:36,596 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:37,769 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:37,773 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:38,142 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:38,705 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:38,922 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:38,982 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:39,747 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:39,787 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:40,232 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:41,181 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:41,881 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:43,180 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:43,411 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:43,441 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:43,886 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:44,369 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:44,412 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:44,430 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:44,899 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:45,178 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:45,798 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:46,100 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:46,612 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:47,549 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:48,107 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:49,128 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:49,398 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:49,444 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:49,471 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:49,560 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:49,818 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:50,185 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:50,186 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:50,581 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:51,316 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:51,377 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:52,260 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:52,413 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:52,941 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:53,458 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:54,499 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:54,917 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:55,700 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:56,193 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:56,483 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:56,578 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:57,149 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:57,229 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:58,702 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:37:59,891 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:00,132 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:00,793 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:01,568 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:02,412 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:02,923 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:02,999 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:03,893 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:04,791 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:04,798 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:05,417 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:05,568 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:05,637 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:05,784 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:07,274 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:08,214 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:08,262 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:08,331 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:08,903 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:09,69 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:10,822 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:11,52 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:11,227 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:11,328 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:11,515 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:11,623 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:12,676 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:12,973 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:13,440 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:13,810 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:14,508 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:14,600 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:14,620 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:15,166 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:16,82 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:16,938 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:18,81 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:19,675 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:19,929 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:20,244 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:21,57 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:21,332 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:22,151 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:22,291 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:22,357 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:22,914 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:22,940 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:23,178 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:23,618 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:23,681 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:23,898 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:24,449 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:24,961 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:25,200 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:25,453 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:26,908 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:28,90 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:28,149 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:28,571 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:29,228 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:30,42 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:30,260 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:30,398 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:30,580 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:30,869 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:30,975 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:31,125 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:31,441 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:32,94 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:34,556 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:34,608 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:36,15 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:36,32 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:36,288 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:36,730 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:37,198 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:37,586 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:37,789 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:38,298 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:38,543 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:39,146 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:40,96 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:40,423 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:41,666 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:42,352 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:42,913 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:43,499 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:43,643 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:43,867 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:44,594 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:44,816 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:44,942 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:45,150 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:45,253 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:45,969 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:50,669 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:38:51,935 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:15,235 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:15,408 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:22,951 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:23,989 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:24,384 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:24,409 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:24,573 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:25,379 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:26,813 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:27,156 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:27,202 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:27,392 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:28,172 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:28,249 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:28,547 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:29,497 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:29,637 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:29,662 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:30,76 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:30,765 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:31,265 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:31,665 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:31,669 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:32,628 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:33,75 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:33,467 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:33,888 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:33,930 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:34,103 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:35,456 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:35,952 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:36,243 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:36,702 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:37,303 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:38,632 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:39,328 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:40,17 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:40,476 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:41,56 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:42,251 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:42,550 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:42,750 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:43,247 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:43,543 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:44,733 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:44,827 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:44,850 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:45,82 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:45,87 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:45,572 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:46,862 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:48,51 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:48,344 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:49,86 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:49,752 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:50,863 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:51,820 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:52,591 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:53,646 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:53,845 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:53,866 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:54,37 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:54,40 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:54,558 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:54,567 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:54,586 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:54,801 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:55,285 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:55,289 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:55,457 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:56,303 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:57,119 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:57,262 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:57,353 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:57,417 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:58,584 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:39:58,687 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:00,943 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:01,470 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:02,146 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:02,223 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:03,253 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:03,280 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:03,575 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:04,578 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:05,46 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:05,246 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:05,456 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:05,580 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:06,643 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:07,81 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:07,173 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:13,626 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:13,940 graphrag.utils.storage INFO reading table from storage: entities.parquet
+16:40:13,985 graphrag.utils.storage INFO reading table from storage: relationships.parquet
+16:40:14,364 graphrag.utils.storage INFO reading table from storage: entities.parquet
+16:40:14,424 graphrag.utils.storage INFO reading table from storage: relationships.parquet
+16:40:14,779 graphrag.utils.storage INFO reading table from storage: text_units.parquet
+16:40:14,789 graphrag.utils.storage INFO reading table from storage: entities.parquet
+16:40:14,800 graphrag.utils.storage INFO reading table from storage: relationships.parquet
+16:40:15,12 graphrag.utils.storage INFO reading table from storage: relationships.parquet
+16:40:15,29 graphrag.utils.storage INFO reading table from storage: entities.parquet
+16:40:15,45 graphrag.utils.storage INFO reading table from storage: communities.parquet
+16:40:15,158 graphrag.index.operations.summarize_communities.graph_context.context_builder INFO Number of nodes at level=2 => 59
+16:40:15,321 graphrag.index.operations.summarize_communities.graph_context.context_builder INFO Number of nodes at level=1 => 649
+16:40:16,165 graphrag.index.operations.summarize_communities.graph_context.context_builder INFO Number of nodes at level=0 => 742
+16:40:34,684 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:37,435 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:38,101 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:38,205 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:38,792 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:39,505 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:41,139 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:41,384 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:41,863 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:43,758 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:44,963 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:45,642 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:50,170 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:53,612 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:54,527 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:40:57,949 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:13,350 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:17,775 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:19,365 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:20,775 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:21,664 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:23,347 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:24,140 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:24,259 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:24,354 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:25,267 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:25,441 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:26,254 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:26,991 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:27,602 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:27,642 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:28,599 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:28,707 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:30,161 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:33,452 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:33,494 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:37,226 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:37,242 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:37,989 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:39,449 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:46,161 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:47,904 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:48,783 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:49,621 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:51,0 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:51,623 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:51,767 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:55,675 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:55,976 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:56,422 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:57,761 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:58,392 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:41:58,643 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:01,50 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:02,698 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:03,204 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:04,790 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:08,764 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:11,970 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:13,264 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:14,830 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:15,189 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:15,231 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:19,984 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:20,758 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:21,50 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:22,32 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:25,714 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:26,388 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:26,883 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:29,683 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:31,197 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:31,409 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:33,246 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:34,28 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:34,493 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:35,637 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:36,965 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:38,561 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:38,696 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:39,951 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:40,183 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:45,772 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:47,276 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:51,122 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:52,687 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:42:58,416 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:13,315 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:34,565 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:34,798 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:35,98 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:35,609 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:38,454 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:39,334 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:39,465 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:39,465 openai._base_client INFO Retrying request to /chat/completions in 0.491311 seconds
+16:43:39,644 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:39,646 openai._base_client INFO Retrying request to /chat/completions in 0.464983 seconds
+16:43:41,341 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:41,343 openai._base_client INFO Retrying request to /chat/completions in 0.440149 seconds
+16:43:41,501 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:43,17 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:44,206 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:44,208 openai._base_client INFO Retrying request to /chat/completions in 0.400515 seconds
+16:43:44,550 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:44,879 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:44,880 openai._base_client INFO Retrying request to /chat/completions in 0.879580 seconds
+16:43:45,326 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:48,927 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:48,929 openai._base_client INFO Retrying request to /chat/completions in 0.440049 seconds
+16:43:49,70 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:49,231 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:49,339 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:50,9 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:43:50,11 openai._base_client INFO Retrying request to /chat/completions in 0.895186 seconds
+16:43:50,185 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:50,186 openai._base_client INFO Retrying request to /chat/completions in 0.770113 seconds
+16:43:50,321 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:50,539 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:51,587 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:51,589 openai._base_client INFO Retrying request to /chat/completions in 0.421315 seconds
+16:43:51,751 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:52,152 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:52,910 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:52,913 openai._base_client INFO Retrying request to /chat/completions in 0.478915 seconds
+16:43:54,234 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:54,415 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:54,416 openai._base_client INFO Retrying request to /chat/completions in 0.465588 seconds
+16:43:54,423 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:54,425 openai._base_client INFO Retrying request to /chat/completions in 0.474947 seconds
+16:43:54,459 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:54,461 openai._base_client INFO Retrying request to /chat/completions in 1.913411 seconds
+16:43:55,161 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:55,311 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:55,312 openai._base_client INFO Retrying request to /chat/completions in 0.978049 seconds
+16:43:55,497 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:43:55,499 openai._base_client INFO Retrying request to /chat/completions in 0.777220 seconds
+16:43:56,142 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:56,144 openai._base_client INFO Retrying request to /chat/completions in 0.957235 seconds
+16:43:57,307 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:57,309 openai._base_client INFO Retrying request to /chat/completions in 1.881778 seconds
+16:43:57,666 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:43:57,668 openai._base_client INFO Retrying request to /chat/completions in 0.416933 seconds
+16:43:57,969 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:43:57,970 openai._base_client INFO Retrying request to /chat/completions in 0.987959 seconds
+16:43:58,656 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:43:59,337 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:00,261 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:00,263 openai._base_client INFO Retrying request to /chat/completions in 1.831841 seconds
+16:44:02,302 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:02,304 openai._base_client INFO Retrying request to /chat/completions in 0.873656 seconds
+16:44:02,362 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:02,461 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:02,684 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:02,687 openai._base_client INFO Retrying request to /chat/completions in 0.480036 seconds
+16:44:03,223 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:03,225 openai._base_client INFO Retrying request to /chat/completions in 0.901972 seconds
+16:44:04,341 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:04,343 openai._base_client INFO Retrying request to /chat/completions in 3.467220 seconds
+16:44:05,317 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:05,319 openai._base_client INFO Retrying request to /chat/completions in 3.471659 seconds
+16:44:06,179 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:06,181 openai._base_client INFO Retrying request to /chat/completions in 1.562202 seconds
+16:44:06,289 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:06,291 openai._base_client INFO Retrying request to /chat/completions in 3.281648 seconds
+16:44:06,364 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:06,366 openai._base_client INFO Retrying request to /chat/completions in 0.772510 seconds
+16:44:07,335 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:08,40 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:10,26 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:10,28 openai._base_client INFO Retrying request to /chat/completions in 1.533583 seconds
+16:44:10,40 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:10,42 openai._base_client INFO Retrying request to /chat/completions in 0.940699 seconds
+16:44:10,305 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:10,306 openai._base_client INFO Retrying request to /chat/completions in 3.822165 seconds
+16:44:10,508 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:10,509 openai._base_client INFO Retrying request to /chat/completions in 6.712453 seconds
+16:44:10,897 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:10,898 openai._base_client INFO Retrying request to /chat/completions in 1.979871 seconds
+16:44:13,553 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:13,555 openai._base_client INFO Retrying request to /chat/completions in 1.869934 seconds
+16:44:13,985 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:14,590 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:14,591 openai._base_client INFO Retrying request to /chat/completions in 1.615004 seconds
+16:44:17,245 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:17,246 openai._base_client INFO Retrying request to /chat/completions in 3.862329 seconds
+16:44:17,507 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:17,582 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:18,252 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:18,253 openai._base_client INFO Retrying request to /chat/completions in 6.842257 seconds
+16:44:19,365 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:19,366 openai._base_client INFO Retrying request to /chat/completions in 6.234634 seconds
+16:44:19,765 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:19,767 openai._base_client INFO Retrying request to /chat/completions in 7.180871 seconds
+16:44:21,487 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:21,488 openai._base_client INFO Retrying request to /chat/completions in 6.191884 seconds
+16:44:22,369 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:22,371 openai._base_client INFO Retrying request to /chat/completions in 3.454396 seconds
+16:44:23,855 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:23,857 openai._base_client INFO Retrying request to /chat/completions in 6.466649 seconds
+16:44:26,9 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:26,10 openai._base_client INFO Retrying request to /chat/completions in 3.344714 seconds
+16:44:28,141 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:28,226 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:28,227 openai._base_client INFO Retrying request to /chat/completions in 3.698278 seconds
+16:44:28,644 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:28,646 openai._base_client INFO Retrying request to /chat/completions in 7.044165 seconds
+16:44:29,597 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:29,599 openai._base_client INFO Retrying request to /chat/completions in 7.879628 seconds
+16:44:29,788 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:31,337 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:31,339 openai._base_client INFO Retrying request to /chat/completions in 6.887104 seconds
+16:44:31,452 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:31,454 openai._base_client INFO Retrying request to /chat/completions in 6.979310 seconds
+16:44:32,87 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:34,684 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:34,818 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:34,820 openai._base_client INFO Retrying request to /chat/completions in 6.259043 seconds
+16:44:36,718 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:36,720 openai._base_client INFO Retrying request to /chat/completions in 7.158514 seconds
+16:44:37,474 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:37,477 openai._base_client INFO Retrying request to /chat/completions in 6.021238 seconds
+16:44:39,376 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:39,377 openai._base_client INFO Retrying request to /chat/completions in 6.696533 seconds
+16:44:46,784 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:46,785 openai._base_client INFO Retrying request to /chat/completions in 7.264738 seconds
+16:44:47,979 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:47,979 openai._base_client INFO Retrying request to /chat/completions in 7.882919 seconds
+16:44:50,218 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:50,220 openai._base_client INFO Retrying request to /chat/completions in 7.668991 seconds
+16:44:51,398 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:44:51,398 openai._base_client INFO Retrying request to /chat/completions in 6.062718 seconds
+16:44:53,450 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:53,453 openai._base_client INFO Retrying request to /chat/completions in 6.635186 seconds
+16:44:53,487 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:53,489 openai._base_client INFO Retrying request to /chat/completions in 7.445612 seconds
+16:44:57,369 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:44:58,3 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:44:58,5 openai._base_client INFO Retrying request to /chat/completions in 7.391788 seconds
+16:45:02,201 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:02,203 openai._base_client INFO Retrying request to /chat/completions in 7.477588 seconds
+16:45:03,17 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:03,19 openai._base_client INFO Retrying request to /chat/completions in 7.783696 seconds
+16:45:05,762 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:45:05,764 openai._base_client INFO Retrying request to /chat/completions in 6.904993 seconds
+16:45:05,896 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:45:05,898 openai._base_client INFO Retrying request to /chat/completions in 6.369042 seconds
+16:45:08,225 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:08,228 openai._base_client INFO Retrying request to /chat/completions in 7.896283 seconds
+16:45:08,704 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:08,705 openai._base_client INFO Retrying request to /chat/completions in 6.746311 seconds
+16:45:11,220 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:45:11,222 openai._base_client INFO Retrying request to /chat/completions in 7.969220 seconds
+16:45:15,335 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:15,337 openai._base_client INFO Retrying request to /chat/completions in 6.121829 seconds
+16:45:17,860 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:17,861 openai._base_client INFO Retrying request to /chat/completions in 6.728862 seconds
+16:45:19,525 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:19,527 openai._base_client INFO Retrying request to /chat/completions in 6.010238 seconds
+16:45:21,773 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:45:21,774 openai._base_client INFO Retrying request to /chat/completions in 6.830892 seconds
+16:45:24,697 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:24,699 openai._base_client INFO Retrying request to /chat/completions in 7.748903 seconds
+16:45:25,755 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:25,757 openai._base_client INFO Retrying request to /chat/completions in 7.076140 seconds
+16:45:26,984 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:45:26,986 openai._base_client INFO Retrying request to /chat/completions in 7.723307 seconds
+16:45:29,982 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:45:29,996 graphrag.index.operations.summarize_communities.community_reports_extractor ERROR error generating community report
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 144, in __call__
+    return await self._decorated_target(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 77, in invoke
+    return await this.invoke_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 96, in invoke_json
+    return await self.try_receive_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 112, in try_receive_json
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\cached.py", line 137, in invoke
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\rate_limiter.py", line 75, in invoke
+    result = await delegate(prompt, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 126, in _decorator_target
+    output = await self._execute_llm(prompt, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_text_chat_llm.py", line 166, in _execute_llm
+    completion = await self._client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\resources\chat\completions.py", line 1727, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 20250328164517565361306BiNdpqZB)', 'type': 'new_api_error', 'param': '', 'code': 'get_channel_failed'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\graphrag\index\operations\summarize_communities\community_reports_extractor.py", line 80, in __call__
+    response = await self._model.achat(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\models.py", line 74, in achat
+    response = await self.model(prompt, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_chat_llm.py", line 94, in __call__
+    return await self._text_chat_llm(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\services\openai_tools_parsing.py", line 130, in __call__
+    return await self._delegate(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 148, in __call__
+    await self._events.on_error(
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\events.py", line 26, in on_error
+    self._on_error(error, traceback, arguments)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\utils.py", line 40, in on_error
+    callbacks.error("Error Invoking LLM", error, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\workflow_callbacks_manager.py", line 64, in error
+    callback.error(message, cause, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\file_workflow_callbacks.py", line 37, in error
+    json.dumps(
+  File "D:\Miniconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ModelMetaclass is not JSON serializable
+16:45:30,222 graphrag.callbacks.file_workflow_callbacks INFO Community Report Extraction Error details=None
+16:45:30,222 graphrag.index.operations.summarize_communities.strategies WARNING No report found for community: 28.0
+16:45:33,597 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:45:33,598 openai._base_client INFO Retrying request to /chat/completions in 6.557452 seconds
+16:45:36,888 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:36,889 openai._base_client INFO Retrying request to /chat/completions in 6.897027 seconds
+16:45:37,19 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:37,21 openai._base_client INFO Retrying request to /chat/completions in 7.171986 seconds
+16:45:37,290 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:37,291 openai._base_client INFO Retrying request to /chat/completions in 6.326312 seconds
+16:45:40,692 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:40,694 openai._base_client INFO Retrying request to /chat/completions in 6.400387 seconds
+16:45:42,790 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:42,799 graphrag.index.operations.summarize_communities.community_reports_extractor ERROR error generating community report
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 144, in __call__
+    return await self._decorated_target(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 77, in invoke
+    return await this.invoke_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 96, in invoke_json
+    return await self.try_receive_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 112, in try_receive_json
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\cached.py", line 137, in invoke
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\rate_limiter.py", line 75, in invoke
+    result = await delegate(prompt, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 126, in _decorator_target
+    output = await self._execute_llm(prompt, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_text_chat_llm.py", line 166, in _execute_llm
+    completion = await self._client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\resources\chat\completions.py", line 1727, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 500 - {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 20250328164324616925481BqZviKPE) (request id: 20250328164536250029003ooLsOOM4)', 'type': 'new_api_error', 'param': '', 'code': 'no_more_channels_available'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\graphrag\index\operations\summarize_communities\community_reports_extractor.py", line 80, in __call__
+    response = await self._model.achat(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\models.py", line 74, in achat
+    response = await self.model(prompt, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_chat_llm.py", line 94, in __call__
+    return await self._text_chat_llm(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\services\openai_tools_parsing.py", line 130, in __call__
+    return await self._delegate(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 148, in __call__
+    await self._events.on_error(
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\events.py", line 26, in on_error
+    self._on_error(error, traceback, arguments)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\utils.py", line 40, in on_error
+    callbacks.error("Error Invoking LLM", error, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\workflow_callbacks_manager.py", line 64, in error
+    callback.error(message, cause, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\file_workflow_callbacks.py", line 37, in error
+    json.dumps(
+  File "D:\Miniconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ModelMetaclass is not JSON serializable
+16:45:42,816 graphrag.callbacks.file_workflow_callbacks INFO Community Report Extraction Error details=None
+16:45:42,816 graphrag.index.operations.summarize_communities.strategies WARNING No report found for community: 29.0
+16:45:48,256 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:48,257 openai._base_client INFO Retrying request to /chat/completions in 6.609310 seconds
+16:45:49,393 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:45:49,401 graphrag.index.operations.summarize_communities.community_reports_extractor ERROR error generating community report
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 144, in __call__
+    return await self._decorated_target(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 77, in invoke
+    return await this.invoke_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 96, in invoke_json
+    return await self.try_receive_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 112, in try_receive_json
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\cached.py", line 137, in invoke
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\rate_limiter.py", line 75, in invoke
+    result = await delegate(prompt, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 126, in _decorator_target
+    output = await self._execute_llm(prompt, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_text_chat_llm.py", line 166, in _execute_llm
+    completion = await self._client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\resources\chat\completions.py", line 1727, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 20250328164539886208117889JXGWL)', 'type': 'new_api_error', 'param': '', 'code': 'get_channel_failed'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\graphrag\index\operations\summarize_communities\community_reports_extractor.py", line 80, in __call__
+    response = await self._model.achat(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\models.py", line 74, in achat
+    response = await self.model(prompt, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_chat_llm.py", line 94, in __call__
+    return await self._text_chat_llm(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\services\openai_tools_parsing.py", line 130, in __call__
+    return await self._delegate(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 148, in __call__
+    await self._events.on_error(
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\events.py", line 26, in on_error
+    self._on_error(error, traceback, arguments)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\utils.py", line 40, in on_error
+    callbacks.error("Error Invoking LLM", error, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\workflow_callbacks_manager.py", line 64, in error
+    callback.error(message, cause, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\file_workflow_callbacks.py", line 37, in error
+    json.dumps(
+  File "D:\Miniconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ModelMetaclass is not JSON serializable
+16:45:49,419 graphrag.callbacks.file_workflow_callbacks INFO Community Report Extraction Error details=None
+16:45:49,419 graphrag.index.operations.summarize_communities.strategies WARNING No report found for community: 38.0
+16:45:49,632 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+16:45:49,640 graphrag.index.operations.summarize_communities.community_reports_extractor ERROR error generating community report
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 144, in __call__
+    return await self._decorated_target(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 77, in invoke
+    return await this.invoke_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 96, in invoke_json
+    return await self.try_receive_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 112, in try_receive_json
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\cached.py", line 137, in invoke
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\rate_limiter.py", line 75, in invoke
+    result = await delegate(prompt, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 126, in _decorator_target
+    output = await self._execute_llm(prompt, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_text_chat_llm.py", line 166, in _execute_llm
+    completion = await self._client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\resources\chat\completions.py", line 1727, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 500 - {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 202503281643319359165787YjEjept) (request id: 20250328164543562573076cXZv3590)', 'type': 'new_api_error', 'param': '', 'code': 'no_more_channels_available'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\graphrag\index\operations\summarize_communities\community_reports_extractor.py", line 80, in __call__
+    response = await self._model.achat(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\models.py", line 74, in achat
+    response = await self.model(prompt, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_chat_llm.py", line 94, in __call__
+    return await self._text_chat_llm(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\services\openai_tools_parsing.py", line 130, in __call__
+    return await self._delegate(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 148, in __call__
+    await self._events.on_error(
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\events.py", line 26, in on_error
+    self._on_error(error, traceback, arguments)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\utils.py", line 40, in on_error
+    callbacks.error("Error Invoking LLM", error, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\workflow_callbacks_manager.py", line 64, in error
+    callback.error(message, cause, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\file_workflow_callbacks.py", line 37, in error
+    json.dumps(
+  File "D:\Miniconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ModelMetaclass is not JSON serializable
+16:45:49,657 graphrag.callbacks.file_workflow_callbacks INFO Community Report Extraction Error details=None
+16:45:49,658 graphrag.index.operations.summarize_communities.strategies WARNING No report found for community: 25.0
+16:45:53,115 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:45:53,123 graphrag.index.operations.summarize_communities.community_reports_extractor ERROR error generating community report
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 144, in __call__
+    return await self._decorated_target(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 77, in invoke
+    return await this.invoke_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 96, in invoke_json
+    return await self.try_receive_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 112, in try_receive_json
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\cached.py", line 137, in invoke
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\rate_limiter.py", line 75, in invoke
+    result = await delegate(prompt, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 126, in _decorator_target
+    output = await self._execute_llm(prompt, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_text_chat_llm.py", line 166, in _execute_llm
+    completion = await self._client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\resources\chat\completions.py", line 1727, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 20250328164539695172100xfe0F55K)', 'type': 'new_api_error', 'param': '', 'code': 'get_channel_failed'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\graphrag\index\operations\summarize_communities\community_reports_extractor.py", line 80, in __call__
+    response = await self._model.achat(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\models.py", line 74, in achat
+    response = await self.model(prompt, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_chat_llm.py", line 94, in __call__
+    return await self._text_chat_llm(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\services\openai_tools_parsing.py", line 130, in __call__
+    return await self._delegate(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 148, in __call__
+    await self._events.on_error(
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\events.py", line 26, in on_error
+    self._on_error(error, traceback, arguments)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\utils.py", line 40, in on_error
+    callbacks.error("Error Invoking LLM", error, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\workflow_callbacks_manager.py", line 64, in error
+    callback.error(message, cause, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\file_workflow_callbacks.py", line 37, in error
+    json.dumps(
+  File "D:\Miniconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ModelMetaclass is not JSON serializable
+16:45:53,142 graphrag.callbacks.file_workflow_callbacks INFO Community Report Extraction Error details=None
+16:45:53,142 graphrag.index.operations.summarize_communities.strategies WARNING No report found for community: 33.0
+16:46:02,930 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+16:46:02,939 graphrag.index.operations.summarize_communities.community_reports_extractor ERROR error generating community report
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 144, in __call__
+    return await self._decorated_target(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 77, in invoke
+    return await this.invoke_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 96, in invoke_json
+    return await self.try_receive_json(delegate, prompt, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\json.py", line 112, in try_receive_json
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\cached.py", line 137, in invoke
+    result = await delegate(prompt, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\services\rate_limiter.py", line 75, in invoke
+    result = await delegate(prompt, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 126, in _decorator_target
+    output = await self._execute_llm(prompt, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_text_chat_llm.py", line 166, in _execute_llm
+    completion = await self._client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\resources\chat\completions.py", line 1727, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 20250328164550947252514hWEzX7K1)', 'type': 'new_api_error', 'param': '', 'code': 'get_channel_failed'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda3\Lib\site-packages\graphrag\index\operations\summarize_communities\community_reports_extractor.py", line 80, in __call__
+    response = await self._model.achat(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\models.py", line 74, in achat
+    response = await self.model(prompt, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\llm\openai_chat_llm.py", line 94, in __call__
+    return await self._text_chat_llm(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\openai\services\openai_tools_parsing.py", line 130, in __call__
+    return await self._delegate(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\site-packages\fnllm\base\base_llm.py", line 148, in __call__
+    await self._events.on_error(
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\events.py", line 26, in on_error
+    self._on_error(error, traceback, arguments)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\language_model\providers\fnllm\utils.py", line 40, in on_error
+    callbacks.error("Error Invoking LLM", error, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\workflow_callbacks_manager.py", line 64, in error
+    callback.error(message, cause, stack, details)
+  File "D:\Miniconda3\Lib\site-packages\graphrag\callbacks\file_workflow_callbacks.py", line 37, in error
+    json.dumps(
+  File "D:\Miniconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Miniconda3\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "D:\Miniconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ModelMetaclass is not JSON serializable
+16:46:02,956 graphrag.callbacks.file_workflow_callbacks INFO Community Report Extraction Error details=None
+16:46:02,957 graphrag.index.operations.summarize_communities.strategies WARNING No report found for community: 37.0
+16:46:20,955 httpx INFO HTTP Request: POST https://www.apigptopen.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+16:46:21,267 graphrag.utils.storage INFO reading table from storage: documents.parquet
+16:46:21,300 graphrag.utils.storage INFO reading table from storage: relationships.parquet
+16:46:21,317 graphrag.utils.storage INFO reading table from storage: text_units.parquet
+16:46:21,354 graphrag.utils.storage INFO reading table from storage: entities.parquet
+16:46:21,372 graphrag.utils.storage INFO reading table from storage: community_reports.parquet
+16:46:21,456 graphrag.index.workflows.generate_text_embeddings INFO Creating embeddings
+16:46:21,456 graphrag.index.operations.embed_text.embed_text INFO using vector store lancedb with container_name default for embedding text_unit.text: default-text_unit-text
+16:46:22,621 graphrag.index.operations.embed_text.strategies.openai INFO embedding 100 inputs via 100 snippets using 13 batches. max_batch_size=16, max_tokens=8191
+16:46:24,469 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:24,717 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:24,950 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:25,247 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:25,516 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:25,955 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:26,249 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:26,511 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:26,726 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:26,972 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:27,390 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:27,613 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:27,747 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:28,923 graphrag.index.operations.embed_text.embed_text INFO using vector store lancedb with container_name default for embedding community.full_content: default-community-full_content
+16:46:29,56 graphrag.index.operations.embed_text.strategies.openai INFO embedding 122 inputs via 122 snippets using 10 batches. max_batch_size=16, max_tokens=8191
+16:46:29,643 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:30,158 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:30,600 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:31,107 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:31,526 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:31,900 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:32,299 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:32,712 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:33,108 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:33,448 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:33,595 graphrag.index.operations.embed_text.embed_text INFO using vector store lancedb with container_name default for embedding entity.description: default-entity-description
+16:46:33,662 graphrag.index.operations.embed_text.strategies.openai INFO embedding 500 inputs via 500 snippets using 32 batches. max_batch_size=16, max_tokens=8191
+16:46:34,50 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:34,353 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:34,704 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:35,15 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:35,375 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:35,768 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:36,104 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:36,429 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:36,795 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:37,115 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:37,534 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:37,871 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:38,183 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:38,537 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:38,925 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:39,280 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:39,640 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:40,32 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:40,405 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:40,762 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:41,76 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:41,394 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:41,734 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:42,51 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:42,398 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:42,688 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:43,31 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:43,408 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:43,759 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:44,130 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:44,461 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:44,589 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:44,805 graphrag.index.operations.embed_text.strategies.openai INFO embedding 500 inputs via 500 snippets using 32 batches. max_batch_size=16, max_tokens=8191
+16:46:45,169 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:45,537 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:45,837 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:46,170 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:46,485 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:46,755 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:47,86 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:47,467 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:47,829 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:48,159 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:48,521 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:48,832 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:49,92 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:49,388 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:49,706 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:49,982 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:50,320 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:50,630 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:50,921 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:51,273 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:51,587 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:51,933 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:52,248 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:52,634 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:53,0 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:53,303 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:53,650 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:53,966 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:54,309 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:54,668 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:54,951 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:55,65 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:55,241 graphrag.index.operations.embed_text.strategies.openai INFO embedding 21 inputs via 21 snippets using 2 batches. max_batch_size=16, max_tokens=8191
+16:46:55,411 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:55,787 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+16:46:56,142 graphrag.cli.index INFO All workflows completed successfully.

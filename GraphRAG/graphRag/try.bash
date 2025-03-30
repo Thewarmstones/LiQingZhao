@@ -1,0 +1,1 @@
+graphrag query --root /home/zkp/LiQingZhao/resources/Database/graphRag --method local --query "李清照什么时候写得《声声慢》?"
