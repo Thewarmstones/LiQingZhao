@@ -202,10 +202,8 @@ class EntityMatcher:
     def extract_entities_from_description(self, query):
         """
         通过描述关键词匹配实体
-        
         参数：
         query: 用户查询字符串
-        
         返回：
         通过描述关键词匹配到的实体列表
         """
@@ -276,13 +274,10 @@ class EntityMatcher:
     def get_entity_relationships(self, entity_name, query=None):
         """
         获取实体的关系信息，并根据查询计算相关度
-        
         参数：
         entity_name: 实体名称
         query: 用户查询，用于计算关系相关度
-        
-        返回：
-        按相关度排序的关系列表
+        返回：按相关度排序的关系列表
         """
         # 查找以该实体为源或目标的关系
         source_relations = self.relationship_df[self.relationship_df['source'] == entity_name]
@@ -461,7 +456,6 @@ class EntityMatcher:
                     text_output.append(f"   {j}. {rel_title}：{rel_desc}")
             else:
                 text_output.append("\n   无相关实体")
-            
             # 添加分隔线
             if i < results["match_count"]:
                 text_output.append("\n" + "-" * 80 + "\n")
@@ -469,25 +463,25 @@ class EntityMatcher:
         return "\n".join(text_output)
 
 
-INPUT_DIR = "./data"
-ENTITY_TABLE = "entities"
-RELATIONSHIP_TABLE = "relationships"
-
-## 实体
-entity_df = pd.read_parquet(f"{INPUT_DIR}/{ENTITY_TABLE}.parquet")
-print(f"Entity count: {len(entity_df)}")
-## 关系
-relationship_df = pd.read_parquet(f"{INPUT_DIR}/{RELATIONSHIP_TABLE}.parquet")
-print(f"Relationship count: {len(relationship_df)}")
-
-# entity_df.head(3),relationship_df.head(3)
-
-test = EntityMatcher(entity_df,relationship_df)
-
-
-while True:
-    query = input("请输入查询：")
-    result = test.extract_all(query)
-    print(result)
-    print()
-    print(test.format_results_as_text(result))
+# INPUT_DIR = "./data"
+# ENTITY_TABLE = "entities"
+# RELATIONSHIP_TABLE = "relationships"
+#
+# ## 实体
+# entity_df = pd.read_parquet(f"{INPUT_DIR}/{ENTITY_TABLE}.parquet")
+# print(f"Entity count: {len(entity_df)}")
+# ## 关系
+# relationship_df = pd.read_parquet(f"{INPUT_DIR}/{RELATIONSHIP_TABLE}.parquet")
+# print(f"Relationship count: {len(relationship_df)}")
+#
+# # entity_df.head(3),relationship_df.head(3)
+#
+# test = EntityMatcher(entity_df,relationship_df)
+#
+#
+# while True:
+#     query = input("请输入查询：")
+#     result = test.extract_all(query)
+#     print(result)
+#     print()
+#     print(test.format_results_as_text(result))
