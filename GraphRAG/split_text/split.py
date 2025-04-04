@@ -1,17 +1,24 @@
 import os
-input_path = ""
+input_path = "./ori_text/graphdata.txt"
 
-output_folder = './peom'  # 输出评测文件夹路径
-os.makedirs(output_folder, exist_ok=True)
+# output_folder = './poem'  # 输出评测文件夹路径
+# os.makedirs(output_folder, exist_ok=True)
 
 with open(input_path, 'r', encoding='utf-8') as f:
     data = f.read()
 
-newdata = data.split('\n\n')
+with open('all_table/works.txt', 'r', encoding='utf-8') as f:
+    data2 = f.readlines()
+# print(data2)
 
-for index in range(len(newdata)):
-    ele = newdata[index].strip()
-    if not ele:
+for i in range(len(data2)):
+    ele = data2[i]
+    if ele=='\n':
         continue
-    with open(os.path.join(output_folder, f'poem_{index}'), 'w', encoding='utf-8') as f:
-        f.write(ele)
+    print(ele)
+    if ele in data:
+        print(ele)
+        data = data.replace(ele, '')
+data = [line.strip() for line in data.split('\n') if line.strip() and line[0]=='1']
+with open('all_table/envent.txt', 'w', encoding='utf-8') as f:
+    f.write('\n'.join(data))
