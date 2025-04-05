@@ -259,7 +259,7 @@ class EntityMatcher:
 
             entity_name = match["entity"]
 
-            if entity_name in processed_entities:
+            if entity_name in processed_entities or len(entity_name) < 2:
                 continue
 
             processed_entities.add(entity_name)

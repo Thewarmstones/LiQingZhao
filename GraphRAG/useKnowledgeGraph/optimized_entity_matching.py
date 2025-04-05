@@ -252,13 +252,17 @@ class EntityMatcher:
         result = []
         processed_entities = set()
         directly_matched_entities = set()
+        # 用于追踪已处理的关系描述
+        processed_descriptions = set()
 
         count = 0
         for match in direct_matches:
             if count >= max_results:
                 break
-
             entity_name = match["entity"]
+            if len(entity_name)<2:
+                continue
+
             directly_matched_entities.add(entity_name)
 
             if entity_name in processed_entities:
@@ -269,6 +273,19 @@ class EntityMatcher:
 
             entity_details = self.get_entity_details(entity_name)
             entity_relationships, related_entities = self.get_entity_relationships(entity_name, query)
+
+            # 过滤掉已处理的关系描述
+            unique_relationships = []
+            for rel in entity_relationships:
+                desc = rel.get("description", "")
+                if desc and desc in processed_descriptions:
+                    continue
+                unique_relationships.append(rel)
+                if desc:  # 只有当描述不为空时才添加到已处理集合
+                    processed_descriptions.add(desc)
+
+            # 使用去重后的关系列表
+            entity_relationships = unique_relationships
 
             related_entity_details = []
             for related_entity in related_entities:
@@ -287,13 +304,23 @@ class EntityMatcher:
         # 提取描述中包含直接匹配实体的关系
         additional_relationships = self.extract_relationships_containing_entities(directly_matched_entities)
 
-        # 将额外的关系添加到结果中
-        if additional_relationships:
+        # 对额外关系也进行去重
+        unique_additional_relationships = []
+        for rel in additional_relationships:
+            desc = rel.get("description", "")
+            if desc and desc in processed_descriptions:
+                continue
+            unique_additional_relationships.append(rel)
+            if desc:
+                processed_descriptions.add(desc)
+
+        # 将去重后的额外关系添加到结果中
+        if unique_additional_relationships:
             result.append({
-                "entity": {"title": "Additional Relationships",
-                           "description": "Relations mentioning directly matched entities"},
+                "entity": {"title": "",
+                           "description": ""},
                 "match_type": "description_match",
-                "relationships": additional_relationships,
+                "relationships": unique_additional_relationships,
                 "related_entities": []
             })
 
@@ -321,7 +348,7 @@ class EntityMatcher:
 
             # 检查关系描述中是否包含直接匹配的实体
             for entity in directly_matched_entities:
-                if entity in description:
+                if entity in description and entity not in self.excluded_entities :
                     additional_relationships.append({
                         "source": source,
                         "target": target,
