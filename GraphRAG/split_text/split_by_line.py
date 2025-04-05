@@ -1,7 +1,7 @@
 import os
-input_path = "all_table/envent.txt"
+input_path = "all_table/location_work.txt"
 
-output_folder = './date_event'  # 输出评测文件夹路径
+output_folder = './new/location_work'  # 输出评测文件夹路径
 os.makedirs(output_folder, exist_ok=True)
 
 with open(input_path, 'r', encoding='utf-8') as f:
@@ -10,6 +10,6 @@ with open(input_path, 'r', encoding='utf-8') as f:
 i = 0
 for index in range(0,len(data),10):
     ele = '\n'.join(data[index:index+10])
-    with open(os.path.join(output_folder, f'date_event_{i}.txt'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(output_folder, f'location_work_{i}.txt'), 'w', encoding='utf-8') as f:
         f.write(ele)
     i += 1

@@ -46,6 +46,7 @@ class EntityMatcher:
 
         # 添加排除列表
         self.excluded_entities = {"李清照","清照"}
+        self.excluded_relations = {"李清照","清照","赵明诚"}
 
         # 定义有效的词性
         self.valid_pos = {"n", "nr", "nw", "ns", "nt", "nz", "vn", "s", "t", "m"}
@@ -348,7 +349,7 @@ class EntityMatcher:
 
             # 检查关系描述中是否包含直接匹配的实体
             for entity in directly_matched_entities:
-                if entity in description and entity not in self.excluded_entities :
+                if entity in description and entity not in self.excluded_relations :
                     additional_relationships.append({
                         "source": source,
                         "target": target,
@@ -415,22 +416,22 @@ while True:
     print(test.format_results_as_text(result))
 
 """
-INPUT_DIR = "./data"
-ENTITY_TABLE = "entities"
-RELATIONSHIP_TABLE = "relationships"
+# INPUT_DIR = "./data"
+# ENTITY_TABLE = "entities"
+# RELATIONSHIP_TABLE = "relationships"
 
-## 实体
-entity_df = pd.read_parquet(f"{INPUT_DIR}/{ENTITY_TABLE}.parquet")
-print(f"Entity count: {len(entity_df)}")
-## 关系
-relationship_df = pd.read_parquet(f"{INPUT_DIR}/{RELATIONSHIP_TABLE}.parquet")
-print(f"Relationship count: {len(relationship_df)}")
+# ## 实体
+# entity_df = pd.read_parquet(f"{INPUT_DIR}/{ENTITY_TABLE}.parquet")
+# print(f"Entity count: {len(entity_df)}")
+# ## 关系
+# relationship_df = pd.read_parquet(f"{INPUT_DIR}/{RELATIONSHIP_TABLE}.parquet")
+# print(f"Relationship count: {len(relationship_df)}")
 
-# entity_df.head(3),relationship_df.head(3)
+# # entity_df.head(3),relationship_df.head(3)
 
-test = EntityMatcher(entity_df,relationship_df)
+# test = EntityMatcher(entity_df,relationship_df)
 
 
-while True:
-    query = input("请输入查询：")
-    print(test.get_data_by_query(query))
+# while True:
+#     query = input("请输入查询：")
+#     print(test.get_data_by_query(query))
