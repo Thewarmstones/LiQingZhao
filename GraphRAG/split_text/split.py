@@ -19,6 +19,6 @@ for i in range(len(data2)):
     if ele in data:
         print(ele)
         data = data.replace(ele, '')
-data = [line.strip() for line in data.split('\n') if line.strip() and line[0]=='1']
-with open('all_table/envent.txt', 'w', encoding='utf-8') as f:
+data = [line.strip() for line in data.split('\n') if line.strip() ]
+with open('all_table/envent2.txt', 'w', encoding='utf-8') as f:
     f.write('\n'.join(data))
